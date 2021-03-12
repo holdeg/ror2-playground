@@ -10,7 +10,7 @@ namespace RoR2Playground
 {
     // This class is templated from rob's HenryMod, which can be found at https://github.com/ArcPh1r3/HenryMod. Thanks, rob!
     [BepInDependency("com.bepis.r2api", BepInDependency.DependencyFlags.HardDependency)]
-    [R2APISubmoduleDependency(nameof(ItemAPI), nameof(ItemDropAPI), nameof(ResourcesAPI), nameof(LanguageAPI))]
+    [R2APISubmoduleDependency(nameof(ItemAPI), nameof(ItemDropAPI), nameof(ResourcesAPI), nameof(LanguageAPI), nameof(BuffAPI))]
     [BepInPlugin(MODGUID, MODNAME, MODVERSION)]
     public class PlaygroundPlugin : BaseUnityPlugin
     {

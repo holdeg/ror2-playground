@@ -11,6 +11,7 @@
         internal static void RegisterEquipment()
         {
             new Equipment.DoNothingEquipment().Init();
+            new Equipment.ShinyPenny().Init();
         }
     }
 }

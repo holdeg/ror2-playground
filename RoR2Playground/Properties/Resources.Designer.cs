@@ -59,15 +59,5 @@ namespace RoR2Playground.Properties {
                 resourceCulture = value;
             }
         }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Byte[].
-        /// </summary>
-        internal static byte[] _8george {
-            get {
-                object obj = ResourceManager.GetObject("_8george", resourceCulture);
-                return ((byte[])(obj));
-            }
-        }
     }
 }
